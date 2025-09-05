@@ -22,8 +22,20 @@ body {
     margin: 48px auto;
 }
 
+section + section {
+    margin-top: 24px;
+}
+
 #about {
-    padding: 24px;
+    padding-top: 24px;
+}
+
+#about, #ingredients, #preparation {
+    padding-left: 24px;
+}
+
+#about p + p {
+    margin-top: 12px;
 }
 
 h1 {
@@ -34,8 +46,18 @@ h1 {
 
 #about h1 h2 {
     color: #291B1A;
+    margin-bottom: 4px;
 }
 
 h2 {
     font-size: 24px;
+}
+
+ul {
+    padding-top: 12px;
+    padding-left: 24px;
+}
+
+#preparation p {
+    margin-top: 12px;
 }

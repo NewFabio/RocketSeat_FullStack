@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    /*Cor Produto*/
+    --brand-color: #EF5F4C;
+    /*Cor Shape*/
+    --background-color: #FFFFFF;
+    --surface-color: #F5F5F5;
+    --skeleton-color: #D9D9D9;
+    --shape-transparency: #FFFFFF91;
+    /*Cor Texto*/
+    --text-color-primary: #313131;
+    --text-color-secondary: #6C6C6C;
+}
+
+/* definindo padrões para o corpo da página */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color-secondary);
+}

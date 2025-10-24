@@ -22,7 +22,7 @@
         figcaption {
             position: absolute;
             bottom: 0;
-            padding: 24px;
+            padding: 2px;
 
             &:has(.text-lg) {
                 padding: 2px;
